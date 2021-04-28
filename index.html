@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./music-solid.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ba0b2d5ef5.js" crossorigin="anonymous"></script>
+    <title>Audio Player</title>
+</head>
+
+<body>
+    <header>
+        <h1>Music Player</h1>
+    </header>
+    <section >
+        <div class="player">
+            <img id="img" src="./img/Nice-music-symbol.jpg" alt="Capa">
+            <div class="musicName"></div>
+            <div id="time"></div>
+            <input type="range" name="" id="range" value="0">
+            <div class="controls">
+                <i id="play" class="fas fa-play-circle btn"></i>
+                <i id="step_backward" class="fas fa-step-backward btn"></i>
+                <i id="stop" class="fas fa-stop-circle btn"></i>
+                <i id="step_forward" class="fas fa-step-forward btn"></i>
+                <i id="vol_down" class="fas fa-volume-down btn"></i>
+                <i id="vol_up" class="fas fa-volume-up btn"></i>
+                <i id="mute" class="fas fa-volume-off btn"></i>
+            </div>
+            <audio id="audio" src="./assets/AnySpecialOrders.mp3" type="audio/mpeg"></audio>
+        </div>
+        <div>
+            
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Cleiton Santos Developer 
+            <span>
+                <a href="http://www.github.com/cleitonrs" target="_blank"><i class="fab fa-github"></i></a>
+            </span>
+        </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

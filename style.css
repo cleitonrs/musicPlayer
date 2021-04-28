@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 30px 20px 20px;
+    text-shadow: 1px 1px 5px;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    filter: grayscale(1);
+    box-shadow: 5px 5px 10px;
+    margin: 10px;
+}
+
+
+.controls {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.158);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.526);
+}
+
+input {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(23, 120, 211);
+}
+
+.musicName, #time {
+    width: 200px;
+    height: 25px;
+    background-color: rgba(224, 217, 217, 0.856);
+    border-radius: 10px;
+    color: #f5670d;
+    text-shadow: 1px 1px 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+.fas {
+    padding: 3px;
+    font-size: 50px;
+    color: rgb(70, 142, 236);
+    text-shadow: 1px 1px 10px;
+    transition: 0.2s;
+}
+
+.fas:hover {
+    color: #f5670d;
+    text-shadow: 1px 1px 25px #F5670D;
+}
+
+footer {
+    margin: 20px 20px 5px; 
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-shadow: 1px 1px 25px;
+}
